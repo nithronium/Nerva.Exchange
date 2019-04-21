@@ -1,0 +1,410 @@
+body {
+  height: 100%;
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  font: 400 0.688em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+.body-container {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 750px;
+  height: auto;
+  padding-bottom: 100px;
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+}
+
+.container {
+  height: 100px;
+}
+
+.container .container {
+  margin-top: -1px;
+}
+
+.container .text {
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 57px;
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+}
+
+.header-links {
+  float: right;
+  width: 250px;
+  height: 57px;
+  margin-right: 40px;
+}
+
+.header-links .text {
+  float: left;
+  margin: 21px 0 0 4%;
+  font-size: 1.455em;
+  color: rgb(255, 255, 255);
+}
+
+.left-container {
+  position: relative;
+  float: left;
+  width: 39.19921875%;
+  height: 570px;
+  min-height: 570px;
+  max-height: 570px;
+  margin: 74px 0 0 10%;
+}
+
+.left-container .text {
+  float: left;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  z-index: 37;
+  width: 20%;
+  height: 57px;
+  margin-left: 5%;
+}
+
+.nerva-price {
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-top: 45px;
+  font-size: 2.909em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.re_captcha_box {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.right-container {
+  position: relative;
+  float: left;
+  width: 39.19921875%;
+  height: 570px;
+  max-height: 570px;
+  margin: 74px 0 0 1.59896%;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+
+.right-container .text {
+  float: left;
+  clear: both;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.website-name {
+  position: absolute;
+  bottom: 0;
+  left: 0.9375%;
+  z-index: 36;
+  font-family: Raleway;
+  font-size: 3em;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+}
+
+.wholebody {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 900px;
+  height: 100vh;
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._input {
+  display: block;
+  float: left;
+  clear: both;
+  width: 65.30476665%;
+  height: 28px;
+  margin: 20px 0 0 17.34928%;
+  padding: 0 10px;
+  border: 3px solid rgb(57, 49, 85);
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-size: 1.182em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button {
+  height: 32px;
+  margin: 31px 0 0 5%;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Open Sans';
+  font-size: 1.455em;
+}
+
+.header-links ._button {
+  height: 24px;
+  margin-top: 20px;
+  background-color: rgba(0, 39, 47, 0);
+  font-size: 1.455em;
+}
+
+.right-container ._button {
+  clear: both;
+  margin-left: 17.34928%;
+  background-color: rgba(16, 5, 49, 0.8);
+}
+
+.right-container ._button:hover {
+  background-color: rgba(23, 0, 94, 0.8);
+}
+
+.container-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  border-top: 1px solid #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+
+.container-2 {
+  float: left;
+  width: 190px;
+  margin-left: 120px;
+}
+
+.container-3 {
+  float: right;
+  width: 500px;
+  margin-right: 60px;
+}
+
+.text-1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 35;
+  margin: 0 auto;
+  font-family: Helvetica;
+  font-size: 1.636em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-10 {
+  clear: both;
+  width: 97%;
+  margin: 25px 0 0 2.99618%;
+  font-size: 1.455em;
+  color: rgb(0, 0, 0);
+}
+
+.text-11,
+.text-12 {
+  clear: both;
+  width: 97%;
+  margin: 15px 0 0 2.99618%;
+  font-size: 1.455em;
+  color: rgb(0, 0, 0);
+}
+
+.text-13 {
+  clear: both;
+  width: 80%;
+  min-height: 38px;
+  margin: 175px 0 0 2.99618%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-14,
+.text-15 {
+  clear: both;
+  width: 80%;
+  min-height: 38px;
+  margin: 20px 0 0 2.99618%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-16 {
+  width: 65.30476665%;
+  min-height: 27px;
+  margin: 21px 0 0 17.34928%;
+  font-family: Raleway;
+  font-size: 1.091em;
+  font-weight: 100;
+}
+
+.text-17 {
+  width: 100%;
+  margin-top: 40px;
+  font-size: 1.727em;
+}
+
+.text-4 {
+  margin-top: 20px;
+  font-family: Raleway;
+  font-size: 2.273em;
+}
+
+.text-5 {
+  clear: both;
+  width: 102.6315789473%;
+  min-height: 16px;
+  margin-top: 11px;
+  font-family: 'Open Sans';
+  font-size: 1.364em;
+  font-weight: 300;
+}
+
+.text-6,
+.text-7,
+.text-8 {
+  margin: 35px 0 0 5%;
+  font-family: 'Open Sans';
+  font-size: 1.455em;
+}
+
+.text-9 {
+  width: 97%;
+  margin: 14px 0 0 1.88673%;
+  font-size: 2.727em;
+  color: rgb(255, 255, 255);
+}
+
+.header-links ._button-1 {
+  margin-left: 5%;
+}
+
+.header-links ._button-2,
+.header-links ._button-3 {
+  margin-left: 4%;
+}
+
+.right-container ._button-8 {
+  width: 65.30476665%;
+  height: 90px;
+  max-height: 90px;
+  margin-top: 40px;
+  font-size: 3.182em;
+}
+
+.right-container ._button-8:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.right-container ._button-9 {
+  width: 65.3014449427%;
+  height: 46px;
+  margin-top: 10px;
+  font-size: 1.455em;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-12 span {
+  color: inherit;
+}
+
+.text-10 span,
+.text-11 span,
+.text-13 span,
+.text-14 span,
+.text-15 span {
+  color: rgb(255, 255, 255);
+}
+
+.website-name strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

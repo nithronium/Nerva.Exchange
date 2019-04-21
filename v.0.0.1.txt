@@ -1,0 +1,103 @@
+http://www.Nerva.Exchange Open-Beta V.0.0.1 Release
+
+October 12, 2018
+----------------------------------------------------
+|| Nithronium ||
+
+Discord : Nithronium #8851
+Telegram : @nithronium
+Twitter : @osmankuzucu
+
+---------------------------------------------------------------------------------------------------------------
+-------------------
+|| Release Notes ||
+-------------------
+
+1) The Exchange backend is active and running. It should process all orders without any problem. 
+Currently 2 network confirmations are required for Bitcoin deposits. The backend will process exchange
+in 30 seconds after the second confirmation.
+
+2) Maximum order is 12.5 USD for the first open-beta testing. This limit will be raised with upcoming
+updates. The reason why I have such low limit is that I want people to test system, and see if it works
+and in case of any bug & problem, I can avoid losing big amounts. (In case someone manages to steal 
+bitcoins from website's bitcoin wallet. Such attack would not effect your transactions or deposited 
+bitcoins, it would only make me lose money.)
+
+3) The exchange rate is determined at the time when Bitcoin deposit gets second confirmation. I can not
+control this rate. It is all determined by an algorithm and exchange is made automaticly. In case XNV 
+price increases while your transaction is waiting for network confirmation, I can't do anything about it.
+So, keep in mind that exchange will occur at the exact second when deposit gots second confirmation. 
+Time your purchases accordingly.
+
+4) We have 0.00003 BTC fixed fee for Bitcoin deposits, around 20 cents or 3 XNV, which enables the 
+backend to process smaller orders. Normally, such coin-shifting websites has minimum order size around
+5-6 USD but on Nerva.Exchange, this amount is 0.0001 BTC, around 60 cents. So, you can even put 1 USD 
+and get corresponding XNV after deduction of fees and conversion. 
+
+5) We also have 4% exchange fee, which directly goes to the Exchange's safe, as income. But I am aware 
+that 4% fee is kinda high compared to exchanges. So, this rate will be lower on full release. However,
+at the moment I will just test the system for a while and see if it is working as intended. You can
+assume that 4% fee as donation for further development.
+
+6) As you have seen on the mainpage, we do not require any information. We do not store your data.
+Nerva.Exchange is completely anonym platform which you can use without any concerns. Also you can reach
+the website from TOR network if you want. There is only one "tracking" or kinda third party code, which
+is "re-captcha" for verifying the user is a human but not a computer script. At the moment I had to use
+it to verify requests, but I will keep working on this problem and try to find a solution in order not
+to store any data on third party websites.
+
+7) At this release, I will keep trade data such as your XNV address, BTC address that you made deposit,
+XNV exchange rate, how many XNV you have received, order creation date, BTC refund address of yours.
+However, these datas will not include any IP address, or e-mail, or geographic location. I will keep
+these informations just to see if there will be any error, or problem on the backend. When the website
+becomes full version, these datas will be deleted regularly to provide anonimity to the users. But, even
+at this point, I will not keep any data that might track/reveal your personal information.
+
+8) Color scheme of the website is just a testing scheme made by me. I am not a professional designer, so
+please share your ideas with me about design and what could be made better and how. Also this version
+of the website only works well on desktop devices. Mobile devices or some small displays could experience
+problems. I will work on this aswell but I just didn't want to delay the release so it is as it is at the 
+moment. 
+
+9) At the moment, the buttons & links are not working. I will work on them and update the buttons asap.
+But I didn't want to delay the release only for some not-too-important buttons. So, there you have the
+reason.
+
+10) The price of Nerva on the mainpage updates every three seconds and it is there just to show estimated
+price for possible transaction. It is not the exact price the backend uses. The rate you get could be 
+slightly higher or lower. 
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+--------------
+|| Road Map ||
+--------------
+
+This is the roadmap for the upcoming two weeks. It could take more than two weeks for some features to 
+be implemented because of personal reasons (university, family etc.). 
+
+1) Release of Terms & Conditions
+
+2) Updating the buttons and links on the website as well as adding the About Us, Fees and F.A.Q. content.
+
+3) Logo and favicon design. (I will have to learn that as well)
+
+4) Re-writing the backend exchange algorithm to make it more feasible with larger amounts. 
+
+5) Fixing small design bugs. Adding transaction hash information if a transactions has been successfully
+finished and XNV sent. (Currently system sends the XNV to given wallet but doesn't display the TX Hash)
+
+6) Adding timestamps to exchange and transactions. (Optional, will ask some users if they'd want such thing)
+
+7) Slightly increasing maximum order limit and decreasing minimum order limit.
+
+8) Auto refresh & update feature on the order-status page. (Currently user needs to refresh page, enter
+order ID on the main page again, and pass re-captcha verification).
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+Please feel free to reach me via Discord, Twitter, Telegram or e-mail for any problems, requests or feedback.
+
+osmankuzucu5@gmail.com is my personal e-mail address. I will try to reply you as soon as possible.

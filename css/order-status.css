@@ -1,0 +1,353 @@
+body {
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgb(0, 0, 0);
+  font: 400 1em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+.body-container {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 650px;
+  height: auto;
+  padding-bottom: 200px;
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 100%) rgba(0, 14, 17, 0);
+}
+
+.body-container:active {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.body-container .container {
+  float: left;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  height: 57px;
+  background: rgb(33, 0, 44);
+  background: -webkit-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:    -moz-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:      -o-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:     -ms-linear-gradient(0deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+  background:         linear-gradient(450deg, rgb(33, 0, 44) 0%, rgb(0, 11, 54) 99.28571428571429%) rgb(0, 0, 0);
+}
+
+.header-links {
+  float: right;
+  width: 250px;
+  height: 57px;
+  margin-right: 40px;
+}
+
+.header-links .text {
+  float: left;
+  margin: 21px 0 0 4%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 57px;
+  margin-left: 4.99616%;
+}
+
+.new-order {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.new-order .text {
+  float: left;
+  clear: both;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.qr-code {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.website-name {
+  position: absolute;
+  bottom: 0;
+  left: 0.9375%;
+  z-index: 39;
+  font-family: Raleway;
+  font-size: 2.063em;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+}
+
+.wholebody {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 650px;
+  height: 100vh;
+}
+
+._button {
+  display: block;
+  border-radius: 3px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.body-container ._button {
+  height: 35px;
+  margin: 20px auto 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(92, 59, 103);
+  font-size: 1.188em;
+}
+
+.body-container ._button:hover {
+  background-color: rgb(149, 97, 166);
+}
+
+.header-links ._button {
+  float: left;
+  height: 24px;
+  margin-top: 20px;
+  background-color: rgba(0, 39, 47, 0);
+  font-size: 1em;
+}
+
+.container-1 {
+  width: 37.5%;
+  margin: 40px 0 0 9.99883%;
+  padding-bottom: 20px;
+}
+
+.container-2 {
+  width: 99.7748059866%;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+.container-3 {
+  clear: both;
+  width: 99.7748059866%;
+}
+
+.container-4 {
+  width: 37.4991861873%;
+  min-height: 500px;
+  margin: 40px 0 0 4.99486%;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.83);
+}
+
+.container-5 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 37;
+  width: 99.9986978997%;
+  min-height: 100px;
+  border-top: 1px solid #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+
+.container-6 {
+  float: left;
+  width: 190px;
+  height: 100px;
+  margin: -1px 0 0 120px;
+}
+
+.container-7 {
+  float: right;
+  width: 500px;
+  height: 100px;
+  margin: -1px 60px 0 0;
+}
+
+.text-10 {
+  margin: 10px auto 0;
+  font-size: 1.563em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-11 {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.375em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-12 {
+  width: 100.0034723427%;
+  margin: 20px 0 0 -0.00347%;
+  padding-top: 10px;
+  font-size: 1em;
+  word-break: break-all;
+}
+
+.text-13 {
+  width: 100%;
+  margin-top: 19px;
+  font-size: 1.125em;
+}
+
+.text-14 {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.text-15 {
+  width: 100%;
+  font-size: 1em;
+}
+
+.text-16 {
+  float: left;
+  margin-top: 20px;
+  font-family: Raleway;
+  font-size: 1.563em;
+  color: rgb(255, 255, 255);
+}
+
+.text-17 {
+  float: left;
+  clear: both;
+  width: 102.6315789473%;
+  min-height: 16px;
+  margin-top: 11px;
+  font-family: 'Open Sans';
+  font-size: 0.938em;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.text-18,
+.text-19,
+.text-20 {
+  float: left;
+  margin: 35px 0 0 5%;
+  font-family: 'Open Sans';
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.text-3 {
+  float: left;
+  margin: 20px 0 0 4.93144%;
+  font-size: 1.25em;
+  color: rgb(255, 255, 255);
+}
+
+.text-4 {
+  float: left;
+  clear: both;
+  width: 90%;
+  margin: 10px 0 0 4.93144%;
+  font-size: 0.813em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.text-5,
+.text-7 {
+  float: left;
+  clear: both;
+  width: 90%;
+  margin: 50px 0 0 4.93144%;
+  font-size: 1.25em;
+  color: rgb(255, 255, 255);
+}
+
+.text-6,
+.text-8 {
+  float: left;
+  clear: both;
+  width: 90%;
+  margin: 10px 0 0 4.93144%;
+  font-size: 0.938em;
+  color: rgba(255, 255, 255, 0.74);
+  word-break: break-all;
+}
+
+.text-9 {
+  width: 100%;
+  margin: 70px auto 0;
+  font-size: 1.25em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-5,
+.container ._button-6,
+.container ._button-7,
+.container ._button-8 {
+  float: left;
+  height: 32px;
+  margin: 31px 0 0 5%;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Open Sans';
+  font-size: 1em;
+}
+
+.header-links ._button-1 {
+  margin-left: 5%;
+}
+
+.header-links ._button-2,
+.header-links ._button-3 {
+  margin-left: 4%;
+}
+
+.website-name strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

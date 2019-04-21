@@ -1,0 +1,38 @@
+Changelog - Last Updated October 14, 2018 - UTC 13.47
+------------------------------------------------------------------------------------
+
+October 14, 2018 --
+-------------------
+
+* Order calculation equations are re-written. Now the backend is able to
+process big amount of buy requests such as +500 USD ones. (Still there is
+order limit tho).
+
+------------------------------------------------------------------------------------
+October 13, 2018 --
+-------------------
+* Input fields on start-order page are now required fields to submit form.
+This prevents starting new orders with no XNV or/and BTC address entered.
+Also field data are now sent to the server in a different way to prevent
+possible SQL injections. 
+
+* Website now uses HTTPS SSL protocol and redirects all HTTP requests to
+HTTPS. Users now can safely enter their wallet addresses.
+
+* Added favicon
+
+* Minimum order amount has changed due to some calculation errors made by me.
+Now minimum order size is 0.00015 BTC (approximately 90-95 cents).
+
+* Entering non-valid order ID and having a false info displaying order-status
+page bug removed. Now if you enter a non-valid order ID, it displays the error
+message accordingly.
+
+* Refreshing on the order ID page redirecting to start-order page bug got
+removed. Now it redirects to the main page. (This will change in near future
+and refreshing will refresh the order status page and will display most
+recent order data). 
+
+* Version and release notes link has moved to the left side of main container
+ 
+
