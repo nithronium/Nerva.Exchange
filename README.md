@@ -1,6 +1,8 @@
 # Nerva.Exchange
 php based cryptocurrency exchange script
 
+**This is the old legacy codebase of Nerva.Exchange, current version has a different backend**
+
 In order to setup Nerva.Exchange's script, your server must have PHP and MySQL installed. You do not have to run any installation scripts for the front end. However, the backend requires daemons running on different screens.
 
 Initially clone the source files to your desired machine. Then edit the files according to your login information. Almost all the pages contain places where you have to insert your database username and password. 
